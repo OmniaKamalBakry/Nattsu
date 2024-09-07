@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>cart</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+   <a href="home.html" class="logo">nattsu</a>
+
+   <nav class="navbar">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="package.html">Collection</a>
+      <a href="cart.html">Cart</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends -->
+
+<div class="heading" style="background:url(images/2109.jpg) no-repeat">
+   <h1>Buy now</h1>
+</div>
+
+<!-- booking section starts  -->
+
+<section class="booking">
+
+   <h1 class="heading-title">buy your clothes!</h1>
+
+   <form action="book_form.php" method="post" class="book-form">
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>First Name :</span>
+            <input type="text" placeholder="Enter your first name" name="firstname" required>
+         </div>
+         <div class="inputBox">
+            <span>Last Name :</span>
+            <input type="text" placeholder="Enter your last name" name="lastname" required>
+         </div>
+         <div class="inputBox">
+            <span>Email :</span>
+            <input type="email" placeholder="enter your email" name="email" required>
+         </div>
+         <div class="inputBox">
+            <span>Phone :</span>
+            <input type="text" placeholder="enter your number" name="phone" required>
+         </div>
+         <div class="inputBox">
+            <span>Address :</span>
+            <input type="text" placeholder="Enter your address" name="address" required>
+         </div>
+         <div class="inputBox">
+            <span>Location :</span>
+            <input type="text" placeholder="Enter the location " name="location" required>
+         </div>
+         <div class="inputBox">
+            <span>Credit :</span>
+            <input type="text" placeholder="Enter your credit number" name="credit" required>
+         </div>
+
+      </div>
+
+      <input type="submit" value="submit" class="btn" name="submit">
+
+   </form>
+
+</section>
+
+<!-- booking section ends -->
